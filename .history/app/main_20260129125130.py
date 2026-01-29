@@ -10,5 +10,3 @@ def health_check():
     return {"Status": "OK"}
 
 @app.get("/version")
-def get_version():
-    return {"version": APP_VERSION}

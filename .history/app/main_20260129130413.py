@@ -3,7 +3,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-APP_VERSION = os.getenv("APP_VERSION", "dev")
+APP_VERSION = os.getenv("dev")
 
 @app.get("/health")
 def health_check():
